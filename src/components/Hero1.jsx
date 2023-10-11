@@ -21,12 +21,6 @@ const Hero1 = () => {
          </div>
          <Cards/> 
       </div>
-
-       {/* image div */}
-      {/* <div className="relative">
-      <img src="/Placeholder.png" className="flex justify-end h-72 ml-auto z-20 mb-auto"/>
-      </div> */}
-      
     </div>
   )
 }

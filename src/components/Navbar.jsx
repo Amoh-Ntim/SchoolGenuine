@@ -1,13 +1,14 @@
 const Navbar = () => {
   return (
     <div>
-      <nav className="bg-ash text-ash p-4 flex justify-between">
-        <div className="h-full w-1/8 bg-blue-800 top-0 left-0 text-blue-800">
+      <img src="background sec-.png" className="absolute"/>
+      <nav className="bg-ash text-ash p-4 flex justify-around relative">
+        {/* <div className="h-full w-1/8 bg-blue-800 top-0 left-0 text-blue-800">
          he
-        </div>
+        </div> */}
 
         <div className="flex items-center">
-          <div className="text-black font-bold text-lg">brandname</div>
+          <div className="text-black font-bold text-2xl">Brandname</div>
         </div>
   
         <div className="flex items-center space-x-4">
@@ -17,14 +18,14 @@ const Navbar = () => {
           <a href="/contact" className="text-ash hover:text-blue-300">Contact</a>
         </div>
   
-        <div className="flex items-center ">
+        {/* <div className="flex items-center "> */}
           {/* Blue rectangular div */}
-          <div className="h-1/2 w-1/4 bg-blue-900 absolute top-0 right-0"></div>
+          {/* <div className="h-1/2 w-1/4 bg-blue-900 absolute top-0 right-0"></div> */}
           <div className="relative">
-            <a href="/login" className="text-orange-400 hover:text-blue-300 mr-8">Login</a>
-            <button className="bg-orange-600 text-white py-2 px-4 rounded">Join Us</button>
+            <a href="/login" className="text-orange-400 hover:text-blue-300 mr-8 ">Login</a>
+            <button className="bg-orange-600 text-white py-2 px-4 rounded  hover:bg-white hover:text-orange-500 ">Join Us</button>
           </div>
-        </div>
+        {/* </div> */}
       </nav>
     </div>
   )

@@ -1,5 +1,6 @@
 const Hero1b = () => {
   return (
+    <div>
         <div className=" flex justify-around mt-40">
             <img src="./thumb-concept.png"/>
             <div className="mt-20">
@@ -14,7 +15,16 @@ const Hero1b = () => {
                 <h3 className="text-orange-500 hover:text-orange-900 flex justify-start mt-16"><a href="#">Learn More {'>'}</a></h3>
             </div>
         </div>
-    
+
+            <div className="flex justify-center items-center mt-12">
+                <img src="./col-md-2 sec-1.png"/>
+                <img src="./col-md-2 sec-2.png"/>
+                <img src="./col-md-2 sec-3.png"/>
+                <img src="./col-md-2 sec-4.png"/>
+                <img src="./col-md-2 sec-5.png"/>
+                <img src="./col-md-2 sec-6.png"/>
+            </div>
+    </div>
   )
 }
 

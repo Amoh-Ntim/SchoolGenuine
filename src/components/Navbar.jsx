@@ -18,9 +18,6 @@ const Navbar = () => {
           <a href="/contact" className="text-ash hover:text-blue-300">Contact</a>
         </div>
   
-        {/* <div className="flex items-center "> */}
-          {/* Blue rectangular div */}
-          {/* <div className="h-1/2 w-1/4 bg-blue-900 absolute top-0 right-0"></div> */}
           <div className="relative">
             <a href="/login" className="text-orange-400 hover:text-blue-300 mr-8 ">Login</a>
             <button className="bg-orange-600 text-white py-2 px-4 rounded  hover:bg-white hover:text-orange-500 ">Join Us</button>

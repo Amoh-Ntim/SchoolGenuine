@@ -1,7 +1,7 @@
 const Hero1b = () => {
   return (
     <div>
-        <div className=" flex justify-around mt-40">
+        <div className=" md:flex justify-around mt-40">
             <img src="./thumb-concept.png"/>
             <div className="mt-20">
                 <img src="./long.png" className="mb-12"/>
@@ -16,7 +16,7 @@ const Hero1b = () => {
             </div>
         </div>
 
-            <div className="flex justify-center items-center mt-12">
+            <div className="md:flex-row justify-center items-center mt-12">
                 <img src="./col-md-2 sec-1.png"/>
                 <img src="./col-md-2 sec-2.png"/>
                 <img src="./col-md-2 sec-3.png"/>

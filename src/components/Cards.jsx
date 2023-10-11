@@ -1,8 +1,8 @@
 const Cards = () => {
   return (
-    <div className="flex mt-8 gap-4 relative">
+    <div className="gap-4 relative md:flex mt-8">
      {/* first card */}
-    <div className="flex-col w-80 h-72 bg-white rounded-lg shadow-lg p-4 transition-transform transform hover:scale-105 hover:shadow-md">
+    <div className="flex-col mb-8 w-80 h-72 bg-white rounded-lg shadow-lg p-4 transition-transform transform hover:scale-105 hover:shadow-md">
       <img src="./fixed-width sec-.png" className="h-16 w-16" />
       <h2 className="text-xl font-bold flex justify-start mt-8">Expert Instruction</h2>
       <img src="fixed-width fixed-height sec-.png" className="mt-8"/>
@@ -14,7 +14,7 @@ const Cards = () => {
     </div>
 
     {/* second card */}
-    <div className="flex-col w-80 h-72 bg-white rounded-lg shadow-lg p-4 transition-transform transform hover:scale-105 hover:shadow-md">
+    <div className="flex-col mb-8 w-80 h-72 bg-white rounded-lg shadow-lg p-4 transition-transform transform hover:scale-105 hover:shadow-md">
       <img src="./fixed-width sec-2.png" className="h-16 w-16" />
       <h2 className="text-xl font-bold flex justify-start mt-8">Training Courses</h2>
       <img src="fixed-width fixed-height sec-.png" className="mt-8"/>

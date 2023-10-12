@@ -7,6 +7,7 @@ import HamburgerMenu from './components/Navbar/Hambuger';
 import Hero2 from './components/Hero/Hero2';
 import Hero3 from './components/Hero/Hero3';
 import Hero4 from './components/Hero/Hero4';
+import Hero5 from './components/Hero/Hero5';
 
 function App() {
   const [isSmallScreen, setIsSmallScreen] = useState(false);
@@ -33,6 +34,7 @@ function App() {
       <Hero2 />
       <Hero3 />
       <Hero4 />
+      <Hero5 />
     </div>
     </>
   )

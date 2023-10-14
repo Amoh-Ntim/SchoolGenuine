@@ -11,7 +11,7 @@ const Hero2 = () => {
   </div>
 
   {/* cards */}
-  <div className="flex justify-center items-center gap-8 py-32">
+  <div className="flex justify-center items-center gap-8 py-32" id="product">
     <img className="w-1/4 transition-transform transform hover:scale-105 hover:shadow-md" src="./Product card.png" />
     <img className="w-1/4 transition-transform transform hover:scale-105 hover:shadow-md" src="./Product card 2.png" />
     <img className="w-1/4 transition-transform transform hover:scale-105 hover:shadow-md" src="./Product card 3.png" />

@@ -3,7 +3,7 @@ import Cards from "./Cards"
 const Hero1 = () => {
   return (
     <div className="relative md:flex justify-around mt-32">
-      <div>
+      <div id="hero1">
          <h5 className="text-orange-500 md:flex justify-start font-bold">For Better Future</h5>
          <div className="text-black text-5xl font-bold flex-col">
          <h2 className="md:flex justify-start mt-8 mb-4">HIGH QUALITY</h2>

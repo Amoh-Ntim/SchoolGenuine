@@ -1,7 +1,7 @@
 const Navbar = () => {
   return (
-    <div>
-      <img src="background sec-.png" className="absolute top-0 left-0 w-full max-w-full h-auto xs:mr-20"/>
+    <div className="overflow-hidden">
+      <img src="background sec-.png" className="absolute top-0 left-0 w-full h-auto flex-shrink-1"/>
       <nav className="bg-ash text-ash p-4 flex justify-around items-center relative">
         {/* <div className="h-full w-1/8 bg-blue-800 top-0 left-0 text-blue-800">
          he

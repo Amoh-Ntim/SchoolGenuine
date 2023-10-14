@@ -8,7 +8,7 @@ const Hero4 = () => {
         <h3 className="flex justify-start px-20">the two major realms of Classical physics: Newtonian mechanics </h3>
        </div>
 
-       <div className="flex justify-center items-center mt-32 xs:flex-col md:flex-row">
+       <div className="flex justify-center items-center mt-32 xs:flex-col lg:flex-row">
         <img className="transition-transform transform hover:scale-105 hover:shadow-md xs:mb-8" src="./col-md-411.png"/>
         <img className="transition-transform transform hover:scale-105 hover:shadow-md xs:mb-8" src="./col-md-412.png"/>
         <img className="transition-transform transform hover:scale-105 hover:shadow-md" src="./col-md-413.png"/>

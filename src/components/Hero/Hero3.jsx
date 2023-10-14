@@ -13,11 +13,48 @@ const Hero3 = () => {
        {/* cards */}
     <div>
 
-  <div className="xs:gap-y-8 md:flex justify-around items-center gap-x-4">
-
+  <div className="w-full h-full xs:gap-y-8 lg:flex justify-around items-center gap-x-4" id="herocards">
+  
           {/* first card */}
- <div className="bg-white p-20 transition-transform transform hover:scale-105 hover:shadow-md mb-8">
-  <div className="flex flex-col items-center sm:items-center md:items-start">
+
+          <div className="bg-white p-20 transition-transform transform hover:scale-105 hover:shadow-md mb-8 flex-shrink-2">
+  <div className="flex flex-col items-center sm:items-center lg:items-start ">
+    <img
+      className="mt-4 sm:mt-0 md:mt-0 sm:mb-4 md:mb-4"
+      src="circle sec-1.png"
+      alt="Image Alt Text"
+    />
+    <h3 className="text-3xl font-bold mt-4 sm:mt-0 md:mt-0">FREE</h3>
+    <div className="mt-4">
+      <h3>Organize across all apps by</h3>
+      <h3>hand</h3>
+    </div>
+    <div className="flex flex-col items-center sm:items-center md:items-start mt-4">
+      <img
+        src="/price sec-.png"
+        className="sm:mt-4 md:mt-0 sm:mb-4 md:mb-0"
+        alt="Image Alt Text"
+      />
+      <h6>Slate helps you see how</h6>
+      <h6>many more days you need...</h6>
+    </div>
+    <button className="mt-4 bg-orange-500 text-white hover:bg-orange-800 font-semibold py-2 px-16 rounded focus:outline-none focus:ring focus:ring-orange-400">
+      Try for Free
+    </button>
+    <img
+      src="/features-list.png"
+      className="mt-8 flex justify-center items-center"
+      alt="Image Alt Text"
+    />
+  </div>
+</div>
+     
+ 
+          {/* second card */}
+          <div className="bg-white p-20 transition-transform transform hover:scale-105 hover:shadow-md mb-8 flex-shrink-2">
+  <div className="flex flex-col items-center sm:items-center lg:items-start">
+  <img src="./circle float off sec- 9.png" className="absolute top-0 right-0"/>
+
     <img
       className="mt-4 sm:mt-0 md:mt-0 sm:mb-4 md:mb-4"
       src="circle sec-1.png"
@@ -49,28 +86,10 @@ const Hero3 = () => {
 </div>
 
 
-          {/* second card */}
-          <div className="bg-white p-20 transition-transform transform hover:scale-105 hover:shadow-md mb-8">
-            <img src="./circle float off sec- 9.png" className="absolute top-0 right-0"/>
-            <img src="circle sec-1.png" className="flex justify-start items-start mt-4"/>
-            <h3 className="text-3xl font-bold flex justify-start items-start mt-4">FREE</h3>
-            <div className="mt-4">
-             <h3 className="flex justify-start items-start">Organize across all apps by</h3>
-             <h3 className="flex justify-start items-start">hand</h3>
-            </div>
-            <img src="./price sec-.png" className="mt-4"/>
-            <h6 className="flex justify-start items-start">Slate helps you see how</h6>
-            <h6 className="flex justify-start items-start">many more days you need...</h6>
-            <button className="mt-4 bg-orange-500 text-white hover:bg-orange-800 font-semibold py-2 px-16 rounded focus:outline-none focus:ring focus:ring-orange-400">
-              Try for Free
-            </button>
-            <img src="./features-list.png" className="flex justify-center items-center mt-8"/>
-          </div>
-
 
           {/* third card */}
-          <div className="bg-white p-20 transition-transform transform hover:scale-105 hover:shadow-md mb-8">
-  <div className="flex flex-col items-center sm:items-center md:items-start">
+          <div className="bg-white p-20 transition-transform transform hover:scale-105 hover:shadow-md mb-8 flex-shrink">
+  <div className="flex flex-col items-center sm:items-center lg:items-start">
     <img
       className="mt-4 sm:mt-0 md:mt-0 sm:mb-4 md:mb-4"
       src="circle sec-1.png"
@@ -109,3 +128,5 @@ const Hero3 = () => {
 }
 
 export default Hero3
+
+

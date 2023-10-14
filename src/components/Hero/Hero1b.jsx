@@ -1,8 +1,8 @@
 const Hero1b = () => {
   return (
     <div>
-        <div className="md:flex justify-center mt-40">
-            <img src="./thumb-concept.png"/>
+        <div className="md:flex justify-around mt-40">
+            <img src="./thumb-concept.png" className="sm:ml-20 md:ml-0"/>
             <div className="mt-20">
                 <img src="./long.png" className="mb-12 md:flex justify-start"/>
                 <h3 className="text-4xl font-bold md:flex justify-start">Get Quality</h3>
@@ -16,7 +16,7 @@ const Hero1b = () => {
             </div>
         </div>
 
-            <div className="flex xs:flex-col justify-center md:flex-row justify-around items-center mt-12">
+            <div className="flex xs:flex-col lg:flex-row justify-around items-center mt-12">
                 <img src="./col-md-2 sec-1.png" className="xs:py-8 md:py-0"/>
                 <img src="./col-md-2 sec-2.png" className="xs:py-8 md:py-0"/>
                 <img src="./col-md-2 sec-3.png" className="xs:py-8 md:py-0"/>

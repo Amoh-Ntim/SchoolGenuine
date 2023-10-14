@@ -16,13 +16,13 @@ const Hero1b = () => {
             </div>
         </div>
 
-            <div className="md:flex justify-around items-center mt-12">
-                <img src="./col-md-2 sec-1.png"/>
-                <img src="./col-md-2 sec-2.png"/>
-                <img src="./col-md-2 sec-3.png"/>
-                <img src="./col-md-2 sec-4.png"/>
-                <img src="./col-md-2 sec-5.png"/>
-                <img src="./col-md-2 sec-6.png"/>
+            <div className="flex xs:flex-col justify-center md:flex-row justify-around items-center mt-12">
+                <img src="./col-md-2 sec-1.png" className="xs:py-8 md:py-0"/>
+                <img src="./col-md-2 sec-2.png" className="xs:py-8 md:py-0"/>
+                <img src="./col-md-2 sec-3.png" className="xs:py-8 md:py-0"/>
+                <img src="./col-md-2 sec-4.png" className="xs:py-8 md:py-0"/>
+                <img src="./col-md-2 sec-5.png" className="xs:py-8 md:py-0"/>
+                <img src="./col-md-2 sec-6.png" className="xs:py-8 md:py-0"/>
             </div>
     </div>
   )

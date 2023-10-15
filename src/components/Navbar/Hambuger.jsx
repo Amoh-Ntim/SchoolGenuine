@@ -23,7 +23,7 @@ const HamburgerMenu = () => {
           className="text-2xl focus:outline-none"
           onClick={toggleMenu}
         >
-          &#9776; {/* Hamburger icon */}
+          <img src='./7.png' className="w-8 h-8 transition-transform transform hover:scale-110 hover:shadow-md"/> {/* Hamburger icon */}
         </button>
         {isMenuOpen && (
           <div className="top-0 right-0 mt-12 bg-orange-300 p-4 shadow-md xs:mb-8 border-orange-500 border-4 backdrop-blur-lg bg-opacity-10 rounded-lg">

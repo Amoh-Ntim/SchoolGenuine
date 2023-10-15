@@ -8,7 +8,7 @@ const Hero5 = () => {
          <h6>the two major realms of Classical physics: Newtonian mechanics</h6>
         </div>
 
-        <div className="flex items-center justify-center mt-20">
+        <div className="flex items-center justify-center mt-20 xs:flex flex-col md:flex-row gap-y-2">
   <input
     type="email"
     placeholder="Enter your email"

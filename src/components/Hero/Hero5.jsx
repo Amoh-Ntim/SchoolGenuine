@@ -8,20 +8,21 @@ const Hero5 = () => {
          <h6>the two major realms of Classical physics: Newtonian mechanics</h6>
         </div>
 
-        <div className="flex items-center space-y-4 mt-20 xs:flex flex-col justify-center md:flex-row">
-        <input
-          type="email"
-          placeholder="Enter your email"
-          className="w-64 px-4 py-2 border border-gray-300 rounded focus:ring focus:ring-orange-300 focus:outline-none"
-          id="contact"
-        />
-        <button
-          type="submit"
-          className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded focus:outline-none focus:ring focus:ring-orange-400"
-        >
-          Subscribe
-        </button>
-      </div>
+        <div className="flex items-center justify-center mt-20">
+  <input
+    type="email"
+    placeholder="Enter your email"
+    className="w-64 px-4 py-2 border border-gray-300 rounded focus:ring focus:ring-orange-300 focus:outline-none"
+    id="contact"
+  />
+  <button
+    type="submit"
+    className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded focus:outline-none focus:ring focus:ring-orange-400"
+  >
+    Subscribe
+  </button>
+</div>
+
     </div>
   )
 }

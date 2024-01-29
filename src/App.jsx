@@ -12,7 +12,6 @@ import Bottom from './components/Hero/Bottom';
 
 function App() {
   const [isSmallScreen, setIsSmallScreen] = useState(false);
-
   useEffect(() => {
     // Check the screen width when the component mounts and on resize
     function handleResize() {

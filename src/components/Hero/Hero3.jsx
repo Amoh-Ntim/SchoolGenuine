@@ -85,8 +85,6 @@ const Hero3 = () => {
   </div>
 </div>
 
-
-
           {/* third card */}
           <div className="bg-white p-20 transition-transform transform hover:scale-105 hover:shadow-md mb-8 flex-shrink">
   <div className="flex flex-col items-center sm:items-center lg:items-start">
@@ -119,8 +117,6 @@ const Hero3 = () => {
     />
   </div>
 </div>
-
-
          </div>
        </div>
     </div>
